@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LearningInheritance1
+{
+    class Parent
+    {
+        private int a = 5;
+        public int b = 6;
+        protected int c = 7;
+    }
+    class Child1 : Parent
+    {
+        private int d = 8;
+        public int e = 9;
+        protected int f = 10;
+    }
+    class Child2 : Parent
+    {
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
