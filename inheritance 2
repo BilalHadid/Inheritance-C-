@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LearningInheritance2
+{
+    class Dada
+    {
+        public void showDada() { Console.WriteLine("I am dada"); }
+    }
+    class Papa: Dada
+    {
+        public void showPapa() { Console.WriteLine("I'm your dady"); }
+    }
+    class Ma : Papa
+    {
+        public void showMe() { Console.WriteLine("Main Hon na"); }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
